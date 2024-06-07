@@ -1,1 +1,1 @@
-# setup-webpack
+# Interactive Photo Gallery

@@ -1,8 +1,8 @@
 {
-  "name": "setup-webpack",
+  "name": "interactive-photo-gallery",
   "version": "1.0.0",
   "private": true,
-  "description": "",
+  "description": "interactive photo gallery",
   "main": "index.js",
   "scripts": {
     "start": "webpack",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edenlisk/setup-webpack.git"
+    "url": "git@github.com:edenlisk/interactive-photo-gallery.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/edenlisk/setup-webpack/issues"
+    "url": "https://github.com/edenlisk/interactive-photo-gallery/issues"
   },
-  "homepage": "https://github.com/edenlisk/setup-webpack#readme",
+  "homepage": "https://github.com/edenlisk/interactive-photo-gallery.git#readme",
   "devDependencies": {
     "css-loader": "^6.7.2",
     "html-webpack-plugin": "^5.5.0",
