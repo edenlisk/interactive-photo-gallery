@@ -28,7 +28,7 @@ const galleryData = [
 ]
 
 const galleryContainer = document.querySelector('.gallery-container ');
-galleryData.forEach((data, index) => {
+galleryData.forEach((data) => {
     const galleryItem = document.createElement('div');
     galleryItem.className = 'gallery-item';
     galleryItem.innerHTML = `
