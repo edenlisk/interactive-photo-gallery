@@ -11,17 +11,17 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.(js|jsx)$/, // Rule for JavaScript and JSX files
-                exclude: /node_modules/, // Exclude node_modules folder
+                test: /\.(js|jsx)$/,
+                exclude: /node_modules/,
                 use: {
-                    loader: 'babel-loader', // Use Babel loader
+                    loader: 'babel-loader',
                 },
             },
             {
-                test: /\.css$/, // Rule for CSS files
+                test: /\.css$/,
                 use: [
-                    'style-loader', // Injects CSS into the DOM
-                    'css-loader', // Parses CSS
+                    'style-loader',
+                    'css-loader',
                 ],
             },
             {
@@ -29,7 +29,7 @@ module.exports = {
                 type: 'asset/resource',
                 parser: {
                     dataUrlCondition: {
-                        maxSize: 900 * 1024 // 900KB
+                        maxSize: 900 * 1024
                     }
                 },
             },
