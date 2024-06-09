@@ -67,7 +67,7 @@
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-Click [here](https://real-time-ride-share-tracking.vercel.app/) to view a live demo of the project.
+Click [here](https://interactive-photo-gallery-khaki.vercel.app/) to view a live demo of the project.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
